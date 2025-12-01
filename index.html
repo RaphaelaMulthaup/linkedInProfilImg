@@ -10,12 +10,148 @@
       <div class="text">
         <h2 class="hello">Hallo! Ich bin</h2>
         <h1>Raphaela Multhaup</h1>
-        <h2>Frontend-Entwicklerin</h2>
-        <div>
-          <span>www.raphaela-multhaup.de</span>
-          <span>kontakt@raphaela-multhaup.de</span>
+        <h2 class="developer">Frontend-Entwicklerin</h2>
+        <div class="contact-line">
+          <div class="contact">
+            <svg
+              class="logo-small"
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              width="511.544px"
+              height="443.01px"
+              viewBox="0 0 535 443.01"
+              enable-background="new 0 0 511.544 443.01"
+              xml:space="preserve"
+            >
+              <polygon
+                fill="none"
+                stroke="#ff834f"
+                stroke-width="25"
+                stroke-miterlimit="10"
+                points="140.773,438.01 15.774,221.505 140.773,5 
+                390.771,5 515.771,221.505 390.771,438.01"
+              />
+              <line
+                x1="140.773"
+                y1="5"
+                x2="259.9985"
+                y2="221.505"
+                stroke="#ff834f"
+                stroke-width="25"
+              />
+              <line
+                x1="390.771"
+                y1="5"
+                x2="259.9985"
+                y2="221.505"
+                stroke="#ff834f"
+                stroke-width="25"
+              />
+              <line
+                x1="10.774"
+                y1="221.505"
+                x2="410"
+                y2="221.505"
+                stroke="#ff834f"
+                stroke-width="25"
+              />
+            </svg>
+            <div class="contact"><span>www.raphaela-multhaup.de</span></div>
+          </div>
+          <div class="contact">
+            <svg
+              class="letter"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="35"
+              height="35"
+              role="img"
+              aria-label="Briefumschlag"
+            >
+              <title>Briefumschlag</title>
+              <rect
+                x="2"
+                y="5"
+                width="20"
+                height="14"
+                rx="2"
+                ry="2"
+                fill="none"
+                stroke="#ff834f"
+                stroke-width="1.5"
+              />
+              <path
+                d="M3 7.5 L12 13 L21 7.5"
+                fill="none"
+                stroke="#ff834f"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span>kontakt@raphaela-multhaup.de</span>
+          </div>
         </div>
       </div>
+
+      <svg
+        class="logo-big"
+        version="1.1"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="511.544px"
+        height="443.01px"
+        viewBox="0 0 535 443.01"
+        enable-background="new 0 0 511.544 443.01"
+        xml:space="preserve"
+      >
+        <polygon
+          fill="none"
+          stroke="#ff834f"
+          stroke-width="25"
+          stroke-miterlimit="10"
+          points="140.773,438.01 15.774,221.505 140.773,5 
+                    390.771,5 515.771,221.505 390.771,438.01"
+        />
+        <line
+          x1="140.773"
+          y1="5"
+          x2="259.9985"
+          y2="221.505"
+          stroke="#ff834f"
+          stroke-width="25"
+        />
+        <line
+          x1="390.771"
+          y1="5"
+          x2="259.9985"
+          y2="221.505"
+          stroke="#ff834f"
+          stroke-width="25"
+        />
+        <line
+          x1="10.774"
+          y1="221.505"
+          x2="410"
+          y2="221.505"
+          stroke="#ff834f"
+          stroke-width="25"
+        />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-labelledby="title">
+  <title id="title">Gefülltes Sechseck</title>
+  <!-- Regulares Sechseck, zentriert -->
+  <polygon points="50.000,10.000 84.641,30.000 84.641,70.000 50.000,90.000 15.359,70.000 15.359,30.000"
+           fill="#000000" />
+</svg>
+
     </div>
   </body>
   <style>
@@ -34,6 +170,7 @@
       width: 1200px;
       height: 300px;
       background-color: #679aac;
+      position: relative;
     }
     .text {
       display: flex;
@@ -52,8 +189,39 @@
       font-weight: 400;
       font-size: 38px;
     }
+    .developer {
+      margin-left: 80px;
+    }
     .hello {
       margin-left: 120px;
+    }
+    .contact-line {
+      display: flex;
+      margin-top: 28px;
+      font-size: 26px;
+      gap: 30px;
+      margin-left: -60px;
+    }
+
+    .contact {
+      display: flex;
+      gap: 6px;
+    }
+    .logo-small {
+      height: 33px;
+      width: auto;
+    }
+    .letter {
+      /* width: 28px; */
+      margin-top: 1px;
+    }
+    .logo-big {
+      position: absolute;
+      top: -10px;
+      right: -22px;
+      height: 120px;
+      width: auto;
+      transform: rotate(-15deg);
     }
     /* quicksand-regular - latin */
     @font-face {
