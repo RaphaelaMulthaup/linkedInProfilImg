@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Titelbild</title>
+  </head>
+  <body>
+    <div class="titleImg">
+      <div class="text">
+        <h2 class="hello">Hallo! Ich bin</h2>
+        <h1>Raphaela Multhaup</h1>
+        <h2>Frontend-Entwicklerin</h2>
+        <div>
+          <span>www.raphaela-multhaup.de</span>
+          <span>kontakt@raphaela-multhaup.de</span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Quicksand", sans-serif;
+    }
+    span,
+    h1,
+    h2 {
+      color: #f8f7e5;
+    }
+    .titleImg {
+      width: 1200px;
+      height: 300px;
+      background-color: #679aac;
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      margin-left: 370px;
+      padding-top: 40px;
+    }
+    h1 {
+      font-family: "Eczar" !important;
+      font-weight: 700;
+      font-size: 75px;
+      margin-top: -20px;
+      margin-bottom: -20px;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 38px;
+    }
+    .hello {
+      margin-left: 120px;
+    }
+    /* quicksand-regular - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: "Quicksand";
+      font-style: normal;
+      font-weight: 400;
+      src: url("./fonts/quicksand-v31-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    /* quicksand-700 - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: "Quicksand";
+      font-style: normal;
+      font-weight: 700;
+      src: url("./fonts/quicksand-v31-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    /* eczar-regular - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: "Eczar";
+      font-style: normal;
+      font-weight: 400;
+      src: url("./fonts/eczar-v22-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    /* eczar-700 - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: "Eczar";
+      font-style: normal;
+      font-weight: 700;
+      src: url("./fonts/eczar-v22-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+  </style>
 </html>
